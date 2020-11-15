@@ -29,7 +29,7 @@ Enemy Class extends Character:
   - hard enemy ai will choose the direction that is in the shortest path to the player using BFS. Every 0.3 of a sec, each enemy recalculates the current shortest path to the player.
   - once the Pacman collides with an enemy or all the points are taken, then the controls of the characters stop and Game Over label appears.
 
-Save/load features:
+Save/Load features:
   - made most of our classes implement the Serializable interface
   - used the FileChooser class to allow the user to save multiple files
   - once save is pressed, the map and player objects get saved to a binary file
