@@ -40,3 +40,4 @@ Our game also has save/load feature:
 - once save is pressed, the map and player objects get saved to a binary file
 - once load is pressed, the map and player objects get read back from the binary file and the map is updated
 - Lastly, the Restart Game button restarts the application. The window is closed and a new window appears.
+
